@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 
-object Example_2_11_WordCount extends App {
+object WordCount extends App {
 
   val inputFile = "build.sbt"
   val outputFile = "output"
