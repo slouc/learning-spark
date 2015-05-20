@@ -4,6 +4,13 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import util.Input
 
+/**
+ * Unlike reduce & fold, result doesn't have to be of same type
+ * (here it's a tuple).
+ * 
+ * @author slouc
+ *
+ */
 object Aggregate extends App with Input {
 
   val result = inputNums.aggregate((0, 0))(

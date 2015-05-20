@@ -4,6 +4,10 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 
+/**
+ * @author slouc
+ *
+ */
 object TransformationsAndActions extends App {
 
   val inputFile = "build.sbt"

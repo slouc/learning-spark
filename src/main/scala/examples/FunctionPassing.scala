@@ -4,6 +4,10 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 
+/**
+ * @author slouc
+ *
+ */
 class FunctionPassing(val query: String) {
 
   def isMatch(s: String) = s.contains(query)
